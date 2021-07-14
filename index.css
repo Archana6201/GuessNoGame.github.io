@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: rgb(166, 240, 166);
+}
+h1{
+    color: black;
+}
+.container{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     margin-top: 10px;
+}
+.first-div{
+    height: 540px;
+    width: 70%;
+    background-color: yellow;
+}
+.first-div h2{
+    margin-top: 10px;
+    background-color:yellow;
+    color: black;
+    height: 40px;
+}
+.second-div{
+    width: 30%;
+    height: 540px;
+    background-color: green;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+}
+.second-div p{
+    font-size: 80px;
+}
+.btn{
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    border: none;
+    margin: 15px;
+    border-radius: 38px;
+    font-size: 80px;
+    font-weight: 600;
+    box-shadow: 10px 10px;
+}
+.flex-item{
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+    display: none;
+}
+.start-div{
+    margin-top: 120px;
+    display: block;
+}
+.start-btn{
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    border: none;
+    margin: 15px;
+    font-size: 30px;
+    border-radius: 38px;
+    box-shadow: 10px 10px;
+}
+#reset{
+    display: none;
+    margin-left: 40%;
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: yellow;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.result{
+    background-color: yellow;
+    margin-top: 120px;
+}
+#heading{
+    font-size: 50px;
+    color: black;
+}
+#result-para{
+    font-size: 80px;
+    font-weight: 500;
+    color: black;
+}
+.back-btn{
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    border: none;
+    margin: 15px;
+    font-size: 30px;
+    border-radius: 38px;
+    box-shadow: 10px 10px;
+}
+.result-div{
+    height: 540px;
+    width: 100%;
+    padding-top: 120px;
+    display: none;
+}
+hr{
+    background-color: black;
+    width: 220px;
+    height: 2px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.timeout{
+    height: 540px;
+    width: 100%;
+    font-size: 40px;
+    padding-top: 180px;
+    display: none;
+    background-color: red;
+}
